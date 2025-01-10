@@ -1,0 +1,31 @@
+/* bug.css */
+.container {
+  background-color: lightblue;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+}
+
+.box.special {
+  background-color: yellow;
+}
+
+/* bugSolution.css */
+.container {
+  background-color: lightblue;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+}
+
+.special-box {
+  background-color: yellow; /* renamed the class for better specificity */
+}
+
+/* This resolves the issue by renaming the class to avoid conflicts with other styles. */
