@@ -1,0 +1,1 @@
+The CSS code has a specificity issue.  The styles defined later in the stylesheet override the styles defined earlier, even if the earlier styles have higher specificity according to the normal CSS rules. This is because of a subtle naming conflict in the classes or IDs used.
